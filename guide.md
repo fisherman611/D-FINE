@@ -14,14 +14,14 @@ wget 'https://cos.twcc.ai/fishlentrafficdataset/Fisheye8K_all_including_train%26
 unzip "Fisheye8K_all_including_train&test_update_2024Jan.zip" -d Fisheye8K && rm "Fisheye8K_all_including_train&test_update_2024Jan.zip"
 ```
 
-### Step 3: Run Restruct data file 
+### Step 3: Run create annotations folder
 ```bash 
-python restruct_data.py
+python create_annotations.py
 ```
 
-### Step 4: Run split data file
+### Step 4: Run prepare data file
 ```bash
-python split_data.py
+python prepare_data.py
 ```
 
 ### Step 5: Set model 
